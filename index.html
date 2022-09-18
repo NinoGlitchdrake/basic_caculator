@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+ 
+    <h1>A Basic Calculator</h1>
+
+    <div class="calculator-container">
+        <div class="calculator-frame">
+            <!-- The calculator display -->
+            <input type="text" id="calculator-display">
+            <!-- The calculator buttons container -->
+            <div class="buttons-container">
+                <div class="first-row">
+                    <button onclick="clearDisplay()">C</button>
+                    <button onclick="plus_n_minus()">+/-</button>
+                    <button onclick="precentage()">%</button>
+                    <button onclick="divide()">÷</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="WriteNumberToScreen('7')">7</button>
+                    <button onclick="WriteNumberToScreen('8')">8</button>
+                    <button onclick="WriteNumberToScreen('9')">9</button>
+                    <button onclick="multiply()">x</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="WriteNumberToScreen('4')">4</button>
+                    <button onclick="WriteNumberToScreen('5')">5</button>
+                    <button onclick="WriteNumberToScreen('6')">6</button>
+                    <button onclick="minus()">-</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="WriteNumberToScreen('1')">1</button>
+                    <button onclick="WriteNumberToScreen('2')">2</button>
+                    <button onclick="WriteNumberToScreen('3')">3</button>
+                    <button onclick="plus()">+</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="WriteNumberToScreen('0')">0</button>
+                    <button onclick="WriteNumberToScreen('.')">.</button>
+                    <button class="equal-to-button" onclick="equals()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="Caculator.JS"></script>
+</body>
+
+</html>
